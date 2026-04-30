@@ -219,6 +219,23 @@ span{
     margin:20px 0;
     font-size:18px;
 }
+@media(max-width:768px){
+    #about{
+        flex-direction:column;
+        text-align:center;
+        padding:50px 20px;
+    }
+    .about-content {
+        padding: 0 10px;
+    }
+
+    .about-content h2 {
+        text-align: center;
+    }
+    .about-img{
+        margin-top:20px;
+    }
+}
 /*services section code*/
 .services{
     color:var(--text-color);
