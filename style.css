@@ -78,11 +78,13 @@ section {
 #home{
     background:var(--bg-color);
     min-height:100vh;
+    padding-top:80px;
 }
 .home{
     display:flex;
     justify-content:center;
     align-items:center;
+    
 }
 .home-image img{
     border-radius:50%;
